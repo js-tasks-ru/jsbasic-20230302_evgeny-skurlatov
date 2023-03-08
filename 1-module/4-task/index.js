@@ -1,3 +1,5 @@
 function checkSpam(str) {
-  // ваш код...
-}
+  let spam = /(1XbeT now|free xxxxx)/i;
+  return spam.test(str);
+ }
+ 
