@@ -6,4 +6,4 @@ function makeDiagonalRed(table) {
     let row = rows[i];
     row.cells[i].style.backgroundColor = 'red';
   }
-}
+  }
